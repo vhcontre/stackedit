@@ -95,8 +95,8 @@ jobs:
 
 ---
 
-¿Quieres que adapte este flujo específicamente a un proyecto WebForms o MVC? ¿O necesitas ayuda creando el perfil de publicación para generar el `.zip` con Web Deploy?
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTI2MjA1NV19
+eyJoaXN0b3J5IjpbMTYyODc4OTM0NCwxOTkxMjYyMDU1XX0=
 -->
