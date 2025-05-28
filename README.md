@@ -1,3 +1,4 @@
+## github.com
 
 **StackEdit** es un editor de texto de código abierto basado en Markdown que se ejecuta directamente en el navegador web. Permite crear, editar y publicar documentos de texto con una interfaz intuitiva y múltiples funciones avanzadas.
 
@@ -53,3 +54,6 @@
 ---
 
 > StackEdit combina la simplicidad de Markdown con herramientas profesionales para crear, colaborar y publicar contenido de manera eficiente desde el navegador.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU1MzQyOTAxOF19
+-->
