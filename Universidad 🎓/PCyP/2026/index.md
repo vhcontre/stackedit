@@ -88,10 +88,8 @@ Al finalizar el trabajo, se espera que los estudiantes hayan:
 ---
 ```
 
----
 
-¿Querés que pasemos ahora a generar el contenido del **README.md del proyecto base** o arrancamos con la **Semana 1** en detalle?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMDMyOTg0XX0=
+eyJoaXN0b3J5IjpbMTI1MzQ4ODEzN119
 -->
