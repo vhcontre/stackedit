@@ -14,7 +14,7 @@ Cada jugador debe tener la siguiente información:
     
 2.  **Usuario** (str) – Nickname único en la plataforma.
     
-3.  **ID** (str) – Identificador único (como un DNI o código).
+3.  **ID** (str) – Identificador único.
     
 4.  **Nivel** (int) – Nivel del jugador (empieza en 1).
     
@@ -77,5 +77,5 @@ Cada jugador debe tener la siguiente información:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Nzg1NTYxOF19
+eyJoaXN0b3J5IjpbLTMzMzg4NzA4MSwxMTc3ODU1NjE4XX0=
 -->
