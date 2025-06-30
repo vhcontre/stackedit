@@ -8,12 +8,12 @@ Perfectamente claro. Vamos a redactar el **enunciado completo del examen integra
 
 ---
 
-## 📄 Examen Integrador – Introducción a la Programación
+## Examen Integrador – Introducción a la Programación
 
- Contenido: Listas, estructuras de repetición, validación de datos y modularidad
+Contenido: Listas, estructuras de repetición, validación de datos y modularidad
 Modalidad: Resolución individual – Duración 90 minutos
 
----
+
 
 ### 🦷 Contexto General
 
@@ -21,7 +21,6 @@ El consultorio odontológico “Sonrisa Feliz” necesita un pequeño sistema qu
 
 El sistema debe ser capaz de registrar turnos, modificar su estado, cancelar turnos y mostrar la lista de todos los turnos cargados.
 
----
 
 ### Reglas de negocio (a respetar estrictamente)
 
@@ -33,11 +32,10 @@ Cada turno debe guardar los siguientes campos:
 * **DNI**: cadena de números (no vacío, debe ser numérico)
 * **Día del turno**: número entero entre 1 y 31
 * **Hora del turno**: número entero entre 8 y 20 (formato 24h)
-* **Estado del turno**: puede ser `"pendiente"`, `"atendido"` o `"cancelado"`
+* **Estado del turno**: puede ser "pendiente", "atendido" o "cancelado"
 
----
 
-### 🧩 Funciones principales del sistema (obligatorias)
+###  Funciones principales del sistema (obligatorias)
 
 Estas funciones deben **recibir los datos validados por parámetro**. No deben utilizar `input()` ni realizar validaciones.
 
@@ -62,9 +60,9 @@ Estas funciones deben **recibir los datos validados por parámetro**. No deben u
    * Muestra todos los turnos registrados con todos sus datos
    * Si no hay turnos, debe informarse al usuario
 
----
 
-### ⚙️ Validaciones obligatorias (deben realizarse antes de invocar a las funciones anteriores)
+
+### Validaciones obligatorias (deben realizarse antes de invocar a las funciones anteriores)
 
 Deberás crear funciones auxiliares (helpers) para realizar las siguientes validaciones:
 
@@ -113,5 +111,5 @@ El menú debe ofrecer estas opciones:
 ¿Querés que te lo arme ahora como un **PDF formateado** o como un documento `.docx` para compartir con tus estudiantes? También puedo agregar una **rúbrica de evaluación** si te parece útil.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQzMDA4NDIsMTYxOTY5MTI0OF19
+eyJoaXN0b3J5IjpbLTE3NzAxMDU5NjgsMTYxOTY5MTI0OF19
 -->
