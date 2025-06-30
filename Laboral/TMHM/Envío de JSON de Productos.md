@@ -1,16 +1,16 @@
 # Guía para la Generación y Envío de JSON de Productos (Carga Masiva)
 
-## Descripción
+### Descripción
 
 Este módulo permite actualizar o insertar productos en la base de datos de forma masiva, procesando los datos en lotes para optimizar el rendimiento. El operador debe generar un archivo JSON con la estructura adecuada y enviarlo al sistema.
 
 ---
 
-## Estructura del JSON Esperado
+### Estructura del JSON Esperado
 
 El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un producto a actualizar o insertar.
 
-### Ejemplo de estructura
+#### Ejemplo de estructura
 ```json
 [
 	{
@@ -19,10 +19,7 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 	    "Stock": 3,
 	    "IsDeleted": false,
 	    "Name": "ROD-30306-RODAMIENTO",
-	    "Description": "Actualización de producto existente",
-	    "CategoryId": 1,
-	    "Image": "none.jpg",
-	    "Discount": 0
+	    "Description": "Actualización de producto existente"	   
 	  },
 	  {
 	    "PartNumber": "676101542071",
@@ -30,10 +27,7 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 	    "Stock": 2,
 	    "IsDeleted": false,
 	    "Name": "676101542071-VALVULA",
-	    "Description": "Actualización de producto existente",
-	    "CategoryId": 1,
-	    "Image": "none.jpg",
-	    "Discount": 0
+	    "Description": "Actualización de producto existente"
 	  }
 ]
 ```
@@ -74,5 +68,5 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY2NDc1NzJdfQ==
+eyJoaXN0b3J5IjpbMTAzNjEwMjgwMSwtMTYwNjY0NzU3Ml19
 -->
