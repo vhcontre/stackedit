@@ -61,7 +61,6 @@ Estas funciones deben **recibir los datos validados por parámetro**. No deben u
    * Si no hay turnos, debe informarse al usuario
 
 
-
 ### Validaciones obligatorias (deben realizarse antes de invocar a las funciones anteriores)
 
 Deberás crear funciones auxiliares (helpers) para realizar las siguientes validaciones:
@@ -73,8 +72,6 @@ Deberás crear funciones auxiliares (helpers) para realizar las siguientes valid
 * Validar que el **estado ingresado** para modificar esté entre `"atendido"` o `"cancelado"`
 
 Los nombres de estas funciones auxiliares pueden ser definidos libremente, pero deben estar separadas y cumplir con su función específica.
-
----
 
 ### 🧭 Estructura del menú principal
 
@@ -104,5 +101,5 @@ El menú debe ofrecer estas opciones:
 * Prestá atención a los límites y validaciones requeridas
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2Nzc0MTcxLDE2MTk2OTEyNDhdfQ==
+eyJoaXN0b3J5IjpbMTY4MDAxOTQzOCwxNjE5NjkxMjQ4XX0=
 -->
