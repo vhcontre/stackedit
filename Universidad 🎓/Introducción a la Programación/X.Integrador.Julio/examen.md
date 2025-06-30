@@ -86,9 +86,7 @@ El menú debe ofrecer estas opciones:
 4. Listar todos los turnos
 5. Salir
 
----
-
-### 🔒 Restricciones
+###  Restricciones
 
 * No utilizar funciones predefinidas como `max()`, `min()`, `filter()`, `lambda`, etc.
 * No usar estructuras como diccionarios ni clases
@@ -97,19 +95,14 @@ El menú debe ofrecer estas opciones:
 * No se permite que las funciones principales tengan `input()`
 * Se deben validar todos los datos antes de pasar a las funciones principales
 
----
 
-### 📢 Recomendaciones finales
+### Recomendaciones finales
 
 * Pensá bien la estructura de tu solución antes de comenzar
 * Dividí tu código en funciones pequeñas y claras
 * Revisá los nombres de tus variables para que representen lo que hacen
 * Prestá atención a los límites y validaciones requeridas
 
----
-
-¿Querés que te lo arme ahora como un **PDF formateado** o como un documento `.docx` para compartir con tus estudiantes? También puedo agregar una **rúbrica de evaluación** si te parece útil.
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAxMDU5NjgsMTYxOTY5MTI0OF19
+eyJoaXN0b3J5IjpbNDQ2Nzc0MTcxLDE2MTk2OTEyNDhdfQ==
 -->
