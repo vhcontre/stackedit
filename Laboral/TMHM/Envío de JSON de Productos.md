@@ -33,7 +33,7 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 ```
 
 
----
+
 
 ## Campos requeridos por producto
 
@@ -58,9 +58,12 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 - El JSON debe ser un arreglo (array) de productos.
 - Se recomienda validar el JSON antes de enviarlo para evitar errores de formato o datos faltantes.
 
+<br>
+<br>
+<br>
+<br>
 
-
-## Información
+### Información
 
 - Para grandes volúmenes (miles de productos):  si se recibe una lista de, por ejemplo, 100,000 productos en una sola llamada, el método los procesa internamente en lotes de 10,000 (o el tamaño que se defina en el parámetro batchSize).
 - Mantener consistencia en los tipos de datos (por ejemplo, no usar comillas en valores numéricos).
@@ -68,5 +71,5 @@ El archivo JSON debe ser un arreglo de objetos, donde cada objeto representa un 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjEwMjgwMSwtMTYwNjY0NzU3Ml19
+eyJoaXN0b3J5IjpbLTU5MjU4NjM5MywtMTYwNjY0NzU3Ml19
 -->
