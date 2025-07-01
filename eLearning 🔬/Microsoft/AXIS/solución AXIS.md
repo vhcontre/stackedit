@@ -1,4 +1,4 @@
-¡Perfecto! Te armo una tabla clara y práctica que describe cada uno de los proyectos en tu solución **AXIS**, con:
+## Estructura de la solución AXIS
 
 * ✅ Tipo de proyecto
 * 🧱 Qué rol cumple
@@ -87,5 +87,5 @@ Install-Package FluentAssertions -Project AXIS.App.Tests
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjU4NjQ0M119
+eyJoaXN0b3J5IjpbNzIzMzU4NDAwXX0=
 -->
