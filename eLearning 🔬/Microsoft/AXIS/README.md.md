@@ -2,6 +2,7 @@
 
 Este proyecto es una plantilla base para desarrollar aplicaciones modulares y escalables en .NET 8, utilizando componentes Syncfusion para la interfaz y una arquitectura limpia basada en capas.
 
+
 ---
 
 ## 🧱 Estructura del Proyecto
@@ -72,5 +73,5 @@ Install-Package FluentAssertions -Project AXIS.App.Tests
 © Proyecto AXIS - Base para aplicaciones .NET 8
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTU0NjI2N119
+eyJoaXN0b3J5IjpbLTQ0OTM1Mjc1OSwxNzQxNTQ2MjY3XX0=
 -->
