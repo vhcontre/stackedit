@@ -9,6 +9,8 @@
 
 ### 📊 Tabla resumen: estructura de la solución AXIS
 
+#### Aplicación eXtendible de Interfaces y Servicios
+
 | Proyecto                  | Tipo de proyecto                             | Rol principal                                                    | NuGet recomendados                                                                                             | Contenido recomendado                                                               |
 | ------------------------- | -------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | `AXIS.App.UI`             | **Blazor Server App** o **ASP.NET Core MVC** | Interfaz de usuario y front-end del sistema                      | `Syncfusion.Blazor`<br>`Microsoft.AspNetCore.Components.Web`<br>`Microsoft.Extensions.Http`                    | - Páginas (`.razor` o `.cshtml`)<br>- Layouts<br>- Startup/Program.cs<br>- Login UI |
@@ -87,5 +89,5 @@ Install-Package FluentAssertions -Project AXIS.App.Tests
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMzU4NDAwXX0=
+eyJoaXN0b3J5IjpbMTg4MjYwODg0NF19
 -->
