@@ -63,7 +63,7 @@ Perfecto, acá te dejo unas preguntas y actividades iniciales para dinamizar la 
 
 ---
 
-## Preguntas disparadoras para iniciar la clase
+### Preguntas disparadoras para iniciar la clase
 
 1. **¿Alguna vez usaron una app o programa que les haya fallado? ¿Qué pasó?**
    (Motiva a compartir experiencias para entender el impacto del software mal hecho.)
@@ -79,7 +79,7 @@ Perfecto, acá te dejo unas preguntas y actividades iniciales para dinamizar la 
 
 ---
 
-## Actividades breves para romper el hielo
+### Actividades breves para romper el hielo
 
 ### Actividad 1: Mini lluvia de ideas
 
@@ -175,6 +175,6 @@ graph TD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzkxNDIxNiwzMDY2MzE2NjQsLTE5Nz
-g0MjczMjIsLTE0NDg3NDU2OTMsNTQ2MDE3MDcyXX0=
+eyJoaXN0b3J5IjpbLTE1MzU3NTIzOTAsMzA2NjMxNjY0LC0xOT
+c4NDI3MzIyLC0xNDQ4NzQ1NjkzLDU0NjAxNzA3Ml19
 -->
