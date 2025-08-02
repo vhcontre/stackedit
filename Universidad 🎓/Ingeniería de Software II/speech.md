@@ -82,21 +82,80 @@ Perfecto, acá te dejo unas preguntas y actividades iniciales para dinamizar la 
 
 
 ```mermaid
+```
+
+```mermaid
 graph TD
-  %% Nivel 1
   IS[Ingeniería de Software]
 
-  %% Nivel 2
-  IS --> Producto[Producto Software]
-  IS --> Proceso[Proceso de Software]
-  IS --> Disciplinas[Disciplinas Relacionadas]
-  IS --> Equipos[Gestión de Equipos]
+  IS --> Producto_Software[Producto Software]
+  IS --> Proceso_Software[Proceso de Software]
+  IS --> Disciplinas[Disciplinas y Herramientas]
+  IS --> Gestion_Equipos[Gestión de Equipos]
   IS --> Planificacion[Planificación y Seguimiento]
-  IS --> Unidades[Unidades a desarrollar]
 
-  
 ```
+
+```mermaid
+graph TD
+  Producto_Software[Producto Software]
+
+  Producto_Software --> Def[Definición]
+  Producto_Software --> Tipos[Tipos]
+  
+  Tipos --> Sistema[Software de Sistema]
+  Tipos --> Aplicacion[Software de Aplicación]
+  Tipos --> Ingenieria[Software de Ingeniería]
+
+```
+
+```mermaid
+graph TD
+  Proceso_Software[Proceso de Software]
+
+  Proceso_Software --> DefProceso[Definición y Actividades]
+  Proceso_Software --> Modelos[Modelos de Procesos]
+
+  Modelos --> Waterfall[Modelo Lineal Secuencial]
+  Modelos --> Prototipos[Modelo de Prototipos]
+  Modelos --> DRA[Modelo DRA]
+
+  Modelos --> Evolutivos[Modelos Evolutivos]
+  Evolutivos --> Incremental[Incremental]
+  Evolutivos --> Espiral[Espiral]
+  Evolutivos --> Concurrente[Concurrente]
+
+  Modelos --> Ensamblaje[Ensamblaje de Componentes]
+  Modelos --> Formales[Métodos Formales]
+
+```
+
+```mermaid
+graph TD
+  Disciplinas[Disciplinas y Herramientas]
+
+  Disciplinas --> CASE[Herramientas CASE]
+  Disciplinas --> Version[Control de Versiones]
+  Disciplinas --> CI[Integración Continua]
+  Disciplinas --> Pruebas[Pruebas Automáticas]
+
+```
+
+```mermaid
+graph TD
+  Gestion_Equipos[Gestión de Equipos]
+
+  Gestion_Equipos --> Formacion[Formación y Roles]
+  Gestion_Equipos --> Factores[Factores Clave]
+
+  Factores --> Comunicacion[Comunicación]
+  Factores --> Motivacion[Motivación]
+  Factores --> Liderazgo[Liderazgo]
+
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg0MjczMjIsLTE0NDg3NDU2OTMsNT
-Q2MDE3MDcyXX0=
+eyJoaXN0b3J5IjpbOTI3NTYwMjUwLC0xOTc4NDI3MzIyLC0xND
+Q4NzQ1NjkzLDU0NjAxNzA3Ml19
 -->
