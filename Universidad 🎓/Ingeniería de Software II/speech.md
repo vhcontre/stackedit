@@ -79,10 +79,7 @@ Perfecto, acá te dejo unas preguntas y actividades iniciales para dinamizar la 
 * Preguntar a cada alumno qué experiencia tienen con desarrollo de software y qué esperan aprender en el curso.
 * Puede hacerse rápido, al aire o por chat si es virtual.
 
-
-
-```mermaid
-```
+---
 
 ```mermaid
 graph TD
@@ -95,7 +92,7 @@ graph TD
   IS --> Planificacion[Planificación y Seguimiento]
 
 ```
-
+---
 ```mermaid
 graph TD
   Producto_Software[Producto Software]
@@ -108,6 +105,7 @@ graph TD
   Tipos --> Ingenieria[Software de Ingeniería]
 
 ```
+---
 
 ```mermaid
 graph TD
@@ -129,6 +127,7 @@ graph TD
   Modelos --> Formales[Métodos Formales]
 
 ```
+---
 
 ```mermaid
 graph TD
@@ -140,6 +139,8 @@ graph TD
   Disciplinas --> Pruebas[Pruebas Automáticas]
 
 ```
+
+---
 
 ```mermaid
 graph TD
@@ -156,6 +157,6 @@ graph TD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NTYwMjUwLC0xOTc4NDI3MzIyLC0xND
+eyJoaXN0b3J5IjpbMzA2NjMxNjY0LC0xOTc4NDI3MzIyLC0xND
 Q4NzQ1NjkzLDU0NjAxNzA3Ml19
 -->
