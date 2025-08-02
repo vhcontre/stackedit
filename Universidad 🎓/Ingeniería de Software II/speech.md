@@ -155,8 +155,22 @@ graph TD
 
 ```
 
+```mermaid
+graph TD
+  IS[Ingeniería de Software]
+  
+  IS --> Def[Disciplina dedicada al desarrollo]
+
+  IS --> Objetivos[Objetivos principales]
+
+  Objetivos --> Confiable[Confiable]
+  Objetivos --> Eficiente[Eficiente]
+  Objetivos --> Mantenible[Mantenible: puede ser modificado y mejorado fácilmente]
+  Objetivos --> Adaptable[Adaptable: evoluciona ante nuevos requerimientos o tecnologías]
+  Objetivos --> Requisitos[Cumplir con los requisitos del usuario y del negocio]
+  ```mermaid
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NjMxNjY0LC0xOTc4NDI3MzIyLC0xND
-Q4NzQ1NjkzLDU0NjAxNzA3Ml19
+eyJoaXN0b3J5IjpbLTE0ODE0OTgwNDUsMzA2NjMxNjY0LC0xOT
+c4NDI3MzIyLC0xNDQ4NzQ1NjkzLDU0NjAxNzA3Ml19
 -->
