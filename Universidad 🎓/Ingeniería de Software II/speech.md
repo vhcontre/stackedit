@@ -154,8 +154,10 @@ graph TD
   Factores --> Liderazgo[Liderazgo]
 
 ```
+---
 
-```mermaid
+``` mermaid
+
 graph TD
   IS[Ingeniería de Software]
   
@@ -165,12 +167,13 @@ graph TD
 
   Objetivos --> Confiable[Confiable]
   Objetivos --> Eficiente[Eficiente]
-  Objetivos --> Mantenible[Mantenible: puede ser modificado y mejorado fácilmente]
-  Objetivos --> Adaptable[Adaptable: evoluciona ante nuevos requerimientos o tecnologías]
-  Objetivos --> Requisitos[Cumplir con los requisitos del usuario y del negocio]
+  Objetivos --> Mantenible[Mantenible]
+  Objetivos --> Adaptable[Adaptable]
+  Objetivos --> Requisitos[requisitos del usuario y del negocio]
+
   ```mermaid
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE0OTgwNDUsMzA2NjMxNjY0LC0xOT
-c4NDI3MzIyLC0xNDQ4NzQ1NjkzLDU0NjAxNzA3Ml19
+eyJoaXN0b3J5IjpbLTc3NDcyNTY3NCwzMDY2MzE2NjQsLTE5Nz
+g0MjczMjIsLTE0NDg3NDU2OTMsNTQ2MDE3MDcyXX0=
 -->
