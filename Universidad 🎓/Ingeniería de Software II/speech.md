@@ -83,48 +83,20 @@ Perfecto, acá te dejo unas preguntas y actividades iniciales para dinamizar la 
 
 ```mermaid
 graph TD
+  %% Nivel 1
   IS[Ingeniería de Software]
 
+  %% Nivel 2
   IS --> Producto[Producto Software]
   IS --> Proceso[Proceso de Software]
   IS --> Disciplinas[Disciplinas Relacionadas]
   IS --> Equipos[Gestión de Equipos]
-  IS --> Planificación[Planificación y Seguimiento]
-
-  Producto --> Definicion[Definición]
-  Producto --> Tipos[Tipos de Software]
-  Tipos --> Sistema[Software de Sistema]
-  Tipos --> Aplicacion[Software de Aplicación]
-  Tipos --> Ingenieria[Software de Ingeniería]
-
-  Proceso --> Modelos[Modelos de Procesos]
-  Modelos --> Waterfall[Modelo Lineal Secuencial]
-  Modelos --> Prototipos[Modelo de Prototipos]
-  Modelos --> DRA[Modelo DRA]
-  Modelos --> Evolutivos[Modelos Evolutivos]
-  Modelos --> Ensamblaje[Modelo de Ensamblaje de Componentes]
-  Modelos --> Formales[Modelos de Métodos Formales]
-
-  Disciplinas --> CASE[Herramientas CASE]
-  Disciplinas --> Versionado[Control de Versiones]
-  Disciplinas --> CI_CD[Integración Continua / CD]
-  Disciplinas --> Testing[Pruebas Automáticas]
-
-  Equipos --> Roles[Roles Definidos]
-  Equipos --> Comunicación[Comunicación]
-  Equipos --> Motivación[Motivación]
-  Equipos --> Liderazgo[Liderazgo]
-
-  Planificación --> Estimaciones[Estimaciones y Recursos]
-  Planificación --> Seguimiento[Control y KPIs]
-
+  IS --> Planificacion[Planificación y Seguimiento]
   IS --> Unidades[Unidades a desarrollar]
-  Unidades --> U1[Unidad 1: Medición y Métricas]
-  Unidades --> U2[Unidad 2: Administración del Riesgo]
-  Unidades --> U3[Unidad 3: Diseño Arquitectónico]
-  Unidades --> U4[Unidad 4: Pruebas de Software]
-  Unidades --> U5[Unidad 5: Administración de la Configuración]
+
+  
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg3NDU2OTMsNTQ2MDE3MDcyXX0=
+eyJoaXN0b3J5IjpbLTE5Nzg0MjczMjIsLTE0NDg3NDU2OTMsNT
+Q2MDE3MDcyXX0=
 -->
