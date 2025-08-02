@@ -31,9 +31,9 @@ graph TD
 
 ---
 
-“speech”:
+**“speech”:**
 
-**Ingeniería de Software es la disciplina que nos permite construir software de forma ordenada y profesional. No es solo programar, sino planificar, diseñar, probar y mantener sistemas que sean confiables y útiles para los usuarios. Es la base para crear soluciones tecnológicas que funcionen bien y puedan adaptarse a los cambios.**
+Ingeniería de Software es la disciplina que nos permite construir software de forma ordenada y profesional. No es solo programar, sino planificar, diseñar, probar y mantener sistemas que sean confiables y útiles para los usuarios. Es la base para crear soluciones tecnológicas que funcionen bien y puedan adaptarse a los cambios.
 
 ---
 
@@ -175,6 +175,7 @@ graph TD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU3NTIzOTAsMzA2NjMxNjY0LC0xOT
-c4NDI3MzIyLC0xNDQ4NzQ1NjkzLDU0NjAxNzA3Ml19
+eyJoaXN0b3J5IjpbLTI4Mzk2MzU4LC0xNTM1NzUyMzkwLDMwNj
+YzMTY2NCwtMTk3ODQyNzMyMiwtMTQ0ODc0NTY5Myw1NDYwMTcw
+NzJdfQ==
 -->
