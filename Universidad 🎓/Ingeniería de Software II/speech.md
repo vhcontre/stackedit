@@ -12,6 +12,23 @@ Su objetivo principal es aplicar principios, métodos y herramientas para constr
 
 Se encarga de todo el ciclo de vida del software, desde la **planificación y análisis** hasta el **diseño, implementación, pruebas, despliegue y mantenimiento**.
 
+```mermaid
+
+graph TD
+  IS[Ingeniería de Software]
+  
+  IS --> Def[Disciplina dedicada al desarrollo]
+
+  IS --> Objetivos[Objetivos principales]
+
+  Objetivos --> Confiable[Confiable]
+  Objetivos --> Eficiente[Eficiente]
+  Objetivos --> Mantenible[Mantenible]
+  Objetivos --> Adaptable[Adaptable]
+  Objetivos --> Requisitos[requisitos del usuario y del negocio]
+
+```
+
 ---
 
 “speech”:
@@ -154,26 +171,10 @@ graph TD
   Factores --> Liderazgo[Liderazgo]
 
 ```
----
 
-``` mermaid
 
-graph TD
-  IS[Ingeniería de Software]
-  
-  IS --> Def[Disciplina dedicada al desarrollo]
-
-  IS --> Objetivos[Objetivos principales]
-
-  Objetivos --> Confiable[Confiable]
-  Objetivos --> Eficiente[Eficiente]
-  Objetivos --> Mantenible[Mantenible]
-  Objetivos --> Adaptable[Adaptable]
-  Objetivos --> Requisitos[requisitos del usuario y del negocio]
-
-  ```mermaid
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDcyNTY3NCwzMDY2MzE2NjQsLTE5Nz
+eyJoaXN0b3J5IjpbMTc2NzkxNDIxNiwzMDY2MzE2NjQsLTE5Nz
 g0MjczMjIsLTE0NDg3NDU2OTMsNTQ2MDE3MDcyXX0=
 -->
