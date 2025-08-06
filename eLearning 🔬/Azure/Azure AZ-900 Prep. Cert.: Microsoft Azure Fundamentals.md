@@ -64,7 +64,57 @@ Porque:
 
     
 
+>Tienes una aplicación de escritorio que usa una base de datos heredada. Planeas mover la aplicación a la nube. ¿Cuál sería el mejor modelo de servicio para este escenario?
 
+----------
+
+### 🧩 **Escenario**
+
+-   Tenés una **aplicación de escritorio** (probablemente monolítica o tradicional).
+    
+-   Utiliza una **base de datos heredada** que posiblemente **no es compatible** con los motores modernos en PaaS.
+    
+-   Querés **migrarla a la nube** sin tener que reescribir o rediseñar desde cero.
+    
+
+----------
+
+### ✅ **Mejor opción: IaaS (Infraestructura como Servicio)**
+
+**¿Por qué?**
+
+-   **IaaS** te permite **levantar máquinas virtuales** en la nube y **replicar tu entorno actual**, incluyendo sistemas operativos, software legado y la base de datos heredada.
+    
+-   Es la opción más **compatible** y **menos invasiva** para mover un sistema tal como está.
+    
+-   Podés mantener la lógica de negocio y las dependencias sin grandes cambios.
+    
+
+----------
+
+### ⚖️ ¿Y Serverless?
+
+-   **Serverless** (como Azure Functions, AWS Lambda, etc.) es ideal para cargas **pequeñas, desacopladas y modernas**, **no** para aplicaciones monolíticas heredadas.
+    
+-   Además, **no podés controlar el entorno de ejecución completo**, lo que limita la compatibilidad con software y bases de datos legadas.
+    
+
+----------
+
+### 🚫 ¿Y PaaS?
+
+-   Como bien dijiste, **PaaS no es recomendable** si tu base de datos heredada no es compatible (por ejemplo, un SQL Server muy antiguo, Access, o un motor propietario).
+    
+
+----------
+
+### 🧠 Conclusión final:
+
+> ✔️ **Usá IaaS para comenzar la migración tal como está.**  
+> Más adelante, si querés modernizar la app, podés ir migrando partes a PaaS o Serverless (estrategia híbrida o por fases).
+
+----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzU0Mjg4NCwtMTUzOTQ0MTA1M119
+eyJoaXN0b3J5IjpbMjAxMzY0MjM5MiwtNjY3NTQyODg0LC0xNT
+M5NDQxMDUzXX0=
 -->
