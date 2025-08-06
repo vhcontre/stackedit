@@ -31,9 +31,40 @@ Porque:
 -   El costo es considerado gasto operativo y por tanto deducible en muchas contabilidades empresariales.
 
 ---
+¿Cuál de las siguientes es una técnica para implementar tolerancia a fallos en el software?
+- Respaldo y cifrado de datos
+- Cifrado de datos
+- Replicación de datos
+- Respaldo de datos
+
+### ✅ **Replicación de datos**
+
+---
+
+### 📌 ¿Por qué?
+
+**La replicación de datos** es una técnica **clave** para implementar **tolerancia a fallos** porque:
+
+* Consiste en **mantener copias sincronizadas** de los datos en diferentes ubicaciones (servidores, zonas o regiones).
+* Si un servidor falla, otro puede **asumir el servicio automáticamente** con los mismos datos.
+* Asegura la **disponibilidad continua** del sistema, incluso ante errores o caídas.
+
+---
+
+### 🧠 Diferencias con otras opciones:
+
+| Opción                          | ¿Implementa tolerancia a fallos? | ¿Qué hace?                                                                  |
+| ------------------------------- | -------------------------------- | --------------------------------------------------------------------------- |
+| **Respaldo y cifrado de datos** | ❌ No directamente                | Protege e integra seguridad, pero los backups no reaccionan en tiempo real. |
+| **Cifrado de datos**            | ❌ No                             | Solo protege la confidencialidad. No evita ni reacciona ante fallos.        |
+| **Replicación de datos**        | ✅ Sí                             | Permite que el sistema siga funcionando ante fallos.                        |
+| **Respaldo de datos**           | ❌ No en tiempo real              | Permite restaurar, pero con interrupciones y pérdida de datos recientes.    |
+
+---
+
     
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk0NDEwNTNdfQ==
+eyJoaXN0b3J5IjpbLTY2NzU0Mjg4NCwtMTUzOTQ0MTA1M119
 -->
