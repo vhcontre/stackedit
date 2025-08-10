@@ -133,18 +133,8 @@ public class PlayerController : MonoBehaviour
 
 `git add docs/unidades/01-bienvenidos-unity.md && git commit -m "Unidad 01: guía de instalación y primer script"`
 
-```
 
----
 
-¿Lo querés en un archivo README.md listo para que lo subas al repo?  
-Si querés también puedo:
-- Generar la carpeta `unit-01` con los archivos mínimos (README + `PlayerController.cs`) y darte un zip para descargar, o  
-- Crear el mismo formato para cada una de las 16 unidades, uno por archivo en `/docs/unidades/`, listo para tu Wiki.
-
-Ah, y asumo que por *“C-Shape para Unix2D”* querías decir **C# para Unity 2D** — si te referías a otra cosa decímelo y lo corrijo. ¿Empezamos generando la Unidad 1 en markdown ahora para que la subas a tu Git? ❤️
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODk5NjQwMV19
+eyJoaXN0b3J5IjpbNDM2OTI0NjEzXX0=
 -->
