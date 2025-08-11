@@ -33,7 +33,10 @@ Instalación y configuración del entorno, creación de un proyecto 2D, primer G
 - Seleccionar módulos: **Visual Studio**, **Build Support** (Windows/Mac según necesites).
 
 ### 2) Configurar el editor de scripts
-- **Visual Studio**: asegurarse de la carga *Game development with Unity*.
+- **Visual Studio**: asegurarse de la carga *Game developm
+
+
+> Writtent with Unity*.
 - **VS Code**: instalar extensiones *C#* y *Unity Debugger*.  
 - En Unity → `Edit > Preferences > External Tools` → seleccionar el editor preferido.
 
@@ -134,7 +137,7 @@ public class PlayerController : MonoBehaviour
 `git add docs/unidades/01-bienvenidos-unity.md && git commit -m "Unidad 01: guía de instalación y primer script"`
 
 
-
+[StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2OTI0NjEzXX0=
+eyJoaXN0b3J5IjpbLTIwMjY0ODQ3OTAsNDM2OTI0NjEzXX0=
 -->
