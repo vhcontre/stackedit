@@ -1,143 +1,148 @@
-# Unidad 01 — ¡Bienvenidos a Unity 2D!
-
-**Resumen:**  
-Instalación y configuración del entorno, creación de un proyecto 2D, primer GameObject con script C# y prueba básica de movimiento. Ideal para arrancar desde cero.
-
-**Objetivos**
-- Instalar Unity Hub, Unity y el editor de C#.
-- Configurar Visual Studio o VS Code para trabajar con Unity.
-- Crear un proyecto 2D y conocer la interfaz (Scene, Game, Hierarchy, Inspector, Project, Console).
-- Crear un `Player` con script `PlayerController` y probar movimiento.
-- Reflexionar cómo explicar estos conceptos en clase.
-
-**Duración sugerida:** 2 horas (ajustable)
+# Cronograma Inicial – Curso Unity 2D + Programación Concurrente y Paralela (16 semanas)
 
 ---
 
-## Requisitos previos
-- Sistema operativo: Windows 10/11, macOS (o Linux con soporte Unity).
-- Unity Hub (última versión estable).
-- Versión recomendada de Unity: **Unity 2022 LTS** (o la LTS disponible en la fecha).
-- Visual Studio (con workload *Game development with Unity*) **o** Visual Studio Code con extensiones:
-  - C# (Microsoft)
-  - Unity Debugger
-- Espacio en disco: mínimo 5–10 GB libre.
+### Semana 1 – ¡Bienvenidos a Unity 2D!
+
+**Temas:** Instalación, configuración de entorno, crear proyecto 2D, primer GameObject y script simple de movimiento.
+**Mini proyecto:** Juego básico con un objeto que se mueve horizontalmente.
+**Concurrente:** Introducción teórica ligera, sin código aún.
+**Reflexión educativa:** Uso de Update() y ciclo por frame para explicar ciclos en programación.
 
 ---
 
-## Pasos de la clase (guía rápida)
+### Semana 2 – Sprites y movimiento avanzado
 
-### 1) Instalar Unity Hub y Unity
-- Descargar Unity Hub desde la web oficial.
-- En Unity Hub → **Installs** → **Add** → elegir Unity 2022 LTS (o LTS disponible).
-- Seleccionar módulos: **Visual Studio**, **Build Support** (Windows/Mac según necesites).
+**Temas:** Importar y manejar sprites, animaciones básicas de movimiento.
+**Mini proyecto:** Personaje que se mueve con animaciones.
+**Concurrente:** Concepto de frames y sincronización.
+**Reflexión:** Cómo visualizar el paso del tiempo y eventos en juegos.
 
-### 2) Configurar el editor de scripts
-- **Visual Studio**: asegurarse de la carga *Game developm
+---
 
+### Semana 3 – Colisiones y detección de objetos
 
-> Writtent with Unity*.
-- **VS Code**: instalar extensiones *C#* y *Unity Debugger*.  
-- En Unity → `Edit > Preferences > External Tools` → seleccionar el editor preferido.
+**Temas:** Física básica, colisionadores 2D, triggers.
+**Mini proyecto:** Juego simple con detección de colisiones (ejemplo: evitar obstáculos).
+**Concurrente:** Explicación básica de eventos y callbacks.
+**Reflexión:** Eventos como ejemplos de concurrencia.
 
-### 3) Crear proyecto 2D
-- Unity Hub → **New Project** → plantilla **2D** → nombre `MiPrimerJuego2D` → Create.
+---
 
-### 4) Conocer la interfaz (tour rápido)
-- Scene / Game / Hierarchy / Inspector / Project / Console.
-- Mostrar cómo arrastrar assets a la escena y cómo duplicar objetos.
+### Semana 4 – Interfaces (UI) y HUD básico
 
-### 5) Primer GameObject + Script
-1. En *Hierarchy* → Create Empty → renombrar `Player`.
-2. *Inspector* → Add Component → New Script: `PlayerController`.
-3. Código de ejemplo (PlayerController.cs):
+**Temas:** Crear interfaces con Canvas, mostrar puntaje, vida, mensajes.
+**Mini proyecto:** Agregar HUD a mini juego.
+**Concurrente:** No código, se prepara para coroutines.
+**Reflexión:** Diseño UX para juegos y educación.
 
-```csharp
-using UnityEngine;
+---
 
-public class PlayerController : MonoBehaviour
-{
-    public float speed = 5f;
+### Semana 5 – Animaciones avanzadas y control de estados
 
-    void Start()
-    {
-        Debug.Log("Hola Unity 2D!");
-    }
+**Temas:** Animator, estados, transición entre animaciones.
+**Mini proyecto:** Personaje con estados (caminar, saltar, caer).
+**Concurrente:** Introducción a coroutines para animaciones temporizadas.
+**Reflexión:** Sincronización de acciones en juegos y su paralelismo.
 
-    void Update()
-    {
-        float move = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.right * move * speed * Time.deltaTime);
-    }
-}
+---
 
-```
+### Semana 6 – Estructuras de datos en Unity (Arrays, Lists)
 
-4.  Guardar y presionar **Play**. Verificar movimiento con flechas o A/D.
-    
+**Temas:** Manejo de colecciones, almacenamiento de enemigos, objetos.
+**Mini proyecto:** Manejar múltiples enemigos o ítems.
+**Concurrente:** Uso básico de colecciones concurrentes (teoría).
+**Reflexión:** Importancia de estructuras de datos para rendimiento.
 
-----------
+---
 
-## Actividades prácticas (entregable de la clase)
+### Semana 7 – Decisiones condicionales y lógica de juego
 
--   Subir al repo la carpeta del proyecto (o un zip) con:
-    
-    -   Escena inicial (`SampleScene`).
-        
-    -   Script `PlayerController.cs`.
-        
-    -   Un screenshot del juego en ejecución.
-        
--   Tarea corta: modificar `speed` desde Inspector y explicar en 2 líneas qué hace `Time.deltaTime`.
-    
+**Temas:** If, Switch, lógica de niveles, reglas.
+**Mini proyecto:** Juego con niveles y reglas básicas.
+**Concurrente:** Control de flujo concurrente (teoría y ejemplos sencillos).
+**Reflexión:** Pensamiento lógico aplicado a juegos y educación.
 
-----------
+---
 
-## Notas docentes / Reflexión
+### Semana 8 – Navegación y NavMesh básico
 
--   Explicar `Update()` como bucle por frame; usar analogías (ej.: reloj/latido).
-    
--   Mostrar cómo las variables públicas facilitan pruebas en clase.
-    
--   Sugerir una mini-demostración en vivo para ver `Debug.Log()`.
-    
+**Temas:** NavMesh para movimiento inteligente.
+**Mini proyecto:** Enemigos que persiguen al jugador.
+**Concurrente:** Simulación de tareas paralelas (enemigos actuando simultáneamente).
+**Reflexión:** Modelos de concurrencia en agentes y AI.
 
-----------
+---
 
-## Checklist rápido (para correr la clase)
+### Semana 9 – Programación orientada a objetos (POO) en Unity
 
--   Unity Hub instalado
-    
--   Unity 2022 LTS instalado con VS
-    
--   Editor de scripts configurado
-    
--   Proyecto 2D creado
-    
--   `PlayerController` agregado y probado
-    
--   Repo / Wiki actualizado con la unidad
-    
+**Temas:** Clases, herencia, encapsulamiento.
+**Mini proyecto:** Refactorización de código con POO.
+**Concurrente:** POO aplicada a gestión de hilos y tareas.
+**Reflexión:** Diseño limpio y modular para educación.
 
-----------
+---
 
-## Metadatos para la Wiki
+### Semana 10 – SceneManager y gestión de escenas
 
--   Autor: Victor Hugo Contreras
-    
--   Fecha: YYYY-MM-DD
-    
--   Repositorio: `git@tu-git:org/proyecto-unity2d.git`
-    
--   Ruta sugerida: `/docs/unidades/01-bienvenidos-unity.md`
-    
+**Temas:** Cargar, cambiar escenas, guardar estado.
+**Mini proyecto:** Juego con múltiples niveles/escenas.
+**Concurrente:** Coordinación de estados y sincronización.
+**Reflexión:** Gestión de estados en programas concurrentes.
 
-## Ejemplo commit
+---
 
-`git add docs/unidades/01-bienvenidos-unity.md && git commit -m "Unidad 01: guía de instalación y primer script"`
+### Semana 11 – Sonidos y efectos
 
+**Temas:** Audio en Unity, efectos sonoros, música.
+**Mini proyecto:** Agregar sonidos a eventos del juego.
+**Concurrente:** Corrutinas para manejar temporizaciones de audio.
+**Reflexión:** Audio como parte de la experiencia concurrente.
 
-[StackEdit](https://stackedit.io/).
+---
+
+### Semana 12 – Introducción a Coroutines
+
+**Temas:** Qué son coroutines, cómo usarlas.
+**Mini proyecto:** Temporizadores y acciones repetitivas.
+**Concurrente:** Primer acercamiento a la programación paralela real en Unity.
+**Reflexión:** Coroutines para entender multitarea cooperativa.
+
+---
+
+### Semana 13 – Threads y tareas en Unity (teoría y práctica básica)
+
+**Temas:** Hilos en C#, limitaciones en Unity.
+**Mini proyecto:** Simulación simple con threads (por ejemplo, cálculo en background).
+**Concurrente:** Implementación básica de threads.
+**Reflexión:** Ventajas y precauciones del paralelismo.
+
+---
+
+### Semana 14 – Integración avanzada de concurrencia
+
+**Temas:** Mezclar coroutines, threads y sincronización.
+**Mini proyecto:** Enemigos con IA básica que corren en coroutines y threads.
+**Concurrente:** Técnicas para evitar conflictos y bugs.
+**Reflexión:** Enseñar errores comunes y buenas prácticas.
+
+---
+
+### Semana 15 – Integración con Python para análisis (opcional)
+
+**Temas:** Enviar datos del juego a Python, análisis, retroalimentación.
+**Mini proyecto:** Simulación de datos y análisis externo.
+**Concurrente:** Ejemplo completo de sistema concurrente distribuido.
+**Reflexión:** Aplicaciones interdisciplinarias y educación.
+
+---
+
+### Semana 16 – Proyecto final y revisión general
+
+**Temas:** Consolidar todo lo aprendido.
+**Mini proyecto:** Juego pequeño completo con concurrencia.
+**Concurrente:** Repaso y optimización.
+**Reflexión:** Evaluación y reflexión docente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY0ODQ3OTAsNDM2OTI0NjEzXX0=
+eyJoaXN0b3J5IjpbLTE2NjMwMzQ2NTAsNDM2OTI0NjEzXX0=
 -->
