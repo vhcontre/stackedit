@@ -1,103 +1,50 @@
-## **📚 Plan LinkedIn Learning – Víctor & Alicia (enfoque IA + Azure + DevOps + IoT)**
+# Plan Maestro Semestral – Víctor & Alicia
 
-### **1️⃣ IA aplicada al desarrollo**
+## Semana 1 a 4: Fundamentos y base sólida
 
--   **Copilot en Visual Studio y GitHub**
-    
-    -   Cómo configurar y optimizar GitHub Copilot para distintos lenguajes.
-        
-    -   Buenas prácticas para integrar Copilot en proyectos reales (no solo ejemplos básicos).
-        
-    -   Estrategias para pair programming con IA.
-        
--   **IA en .NET y C#**
-    
-    -   Integración de APIs de IA (Azure Cognitive Services).
-        
-    -   Procesamiento de lenguaje natural y visión por computadora.
-        
--   **Automatización con IA**
-    
-    -   Scripts y herramientas para reducir tareas repetitivas en desarrollo.
-        
+| Día       | Actividad Principal          | Detalle / Objetivo                        | LinkedIn Learning (temas sugeridos)                          |
+| --------- | ---------------------------- | ----------------------------------------- | ------------------------------------------------------------ |
+| Lunes     | Unity 2D                     | Programación básica, mecánicas simples    | IA aplicada al desarrollo: Copilot en Visual Studio          |
+| Martes    | Robótica / Arduino           | Electrónica básica, circuitos simples     | Azure Fundamentals (AZ-900), IoT básico con Arduino          |
+| Miércoles | Unity 2D                     | Animaciones y control de personaje        | DevOps básico: Introducción a pipelines y CI/CD              |
+| Jueves    | Robótica / Arduino           | Sensores básicos (LDR, ultrasonido)       | IA en .NET: Integración con Cognitive Services               |
+| Viernes   | Repaso / Proyecto Integrador | Combinar Unity y Arduino en mini proyecto | Marca personal y networking: Optimización de perfil LinkedIn |
 
-----------
+---
 
-### **2️⃣ Cloud + IoT**
+## Semana 5 a 8: Profundización y proyectos
 
--   **Azure IoT Hub y Arduino**
-    
-    -   Conectar sensores Arduino a Azure.
-        
-    -   Dashboards y alertas en la nube.
-        
--   **Integración con Power BI**
-    
-    -   Visualización de datos de sensores y sistemas en tiempo real.
-        
--   **Edge Computing**
-    
-    -   Procesamiento en dispositivos antes de enviar datos a la nube.
-        
+| Día       | Actividad Principal         | Detalle / Objetivo                             | LinkedIn Learning (temas sugeridos)                             |
+| --------- | --------------------------- | ---------------------------------------------- | --------------------------------------------------------------- |
+| Lunes     | Unity 2D                    | Física, interacciones, optimización            | IA aplicada: Automatización con Copilot y scripts               |
+| Martes    | Robótica / Arduino          | Actuadores, motores y control                  | Azure IoT Hub: Conectar sensores a la nube                      |
+| Miércoles | Unity 2D                    | UI, efectos visuales y manejo avanzado         | DevOps avanzado: Pipelines, testing automático                  |
+| Jueves    | Robótica / Arduino          | Proyectos con sensores y actuadores integrados | Edge computing y análisis de datos en tiempo real               |
+| Viernes   | Proyecto integrador semanal | Integrar todo lo aprendido en un mini proyecto | Presentación de proyectos: Documentar y comunicar efectivamente |
 
-----------
+---
 
-### **3️⃣ DevOps avanzado**
+## Semana 9 a 12: Consolidación y preparación laboral
 
--   **Azure DevOps + GitHub Actions**
-    
-    -   Pipelines CI/CD para aplicaciones .NET y microservicios.
-        
-    -   Deploy automático a Azure.
-        
--   **Infraestructura como código**
-    
-    -   ARM templates, Bicep o Terraform.
-        
--   **Testing automatizado**
-    
-    -   Integración de pruebas unitarias y de integración en el pipeline.
-        
+| Día       | Actividad Principal         | Detalle / Objetivo                              | LinkedIn Learning (temas sugeridos)                           |
+| --------- | --------------------------- | ----------------------------------------------- | ------------------------------------------------------------- |
+| Lunes     | Unity 2D                    | Proyecto final y optimización                   | Entrevistas técnicas y soft skills para desarrolladores       |
+| Martes    | Robótica / Arduino          | Proyecto final: IoT integrado con Azure         | Networking estratégico y storytelling profesional             |
+| Miércoles | Unity 2D                    | Pruebas, debug y refinamiento                   | Gestión de proyectos ágiles y liderazgo técnico               |
+| Jueves    | Robótica / Arduino          | Presentación final y documentación del proyecto | Preparación para certificaciones técnicas                     |
+| Viernes   | Revisión general y feedback | Ajustes finales y autoevaluación                | Revisión de perfil LinkedIn y planificación de próximos pasos |
 
-----------
+---
 
-### **4️⃣ Habilidades estratégicas**
+## Notas importantes:
 
-_(Solo lo justo, para no quitarte tiempo de lo técnico)_
+* Cada día tendrá un espacio en la tarde para publicación y actividad en LinkedIn, reforzando lo aprendido.
+* En viernes, reservamos la mañana para proyectos integradores que combinen Unity, Arduino y DevOps.
+* El plan es flexible, se ajusta semana a semana según avances y necesidades.
+* Yo te acompaño siempre para aclarar dudas, practicar y ayudarte con la parte de LinkedIn.
 
--   Presentar proyectos técnicos en entrevistas.
-    
--   Documentar y versionar código para equipos distribuidos.
-    
 
-----------
-
-💡 **Distribución semanal sugerida (LinkedIn Learning):**
-
--   **Lunes:** IA aplicada a desarrollo (Copilot + C# + Cognitive Services)
-    
--   **Martes:** IoT y Arduino Cloud (Azure IoT Hub)
-    
--   **Miércoles:** DevOps avanzado (pipelines, automatización)
-    
--   **Jueves:** Integración IA + Cloud (Edge computing, dashboards)
-    
--   **Viernes:** Presentación y documentación de proyectos
-    
-
-----------
-
-Si querés, puedo ahora tomar **esta lista de cursos/temas** y meterla dentro de tu **plan general con Unity 2D y Robótica**, de modo que cada semana sepas:
-
--   Qué estudiar en LinkedIn Learning
-    
--   Qué practicar con Arduino
-    
--   Qué avanzar en Unity
-    
--   Cómo todo se conecta en proyectos que podamos mostrar
-    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NzQ0MzU0XX0=
+eyJoaXN0b3J5IjpbMTY2ODE0OTgwMCw2OTg3NDQzNTRdfQ==
 -->
