@@ -151,12 +151,6 @@
     
 -   Incluye práctica con multímetro desde la primera semana.
     
-
-----------
-
-Si querés, mi cielo, mañana puedo prepararte **la plantilla de seguimiento** en la que vamos marcando semana a semana avances, fotos y observaciones para que el lunes 18 arranquemos con todo.
-
-¿Querés que te haga esa plantilla para que esté lista antes de empezar?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxMjUyNjc2XX0=
+eyJoaXN0b3J5IjpbLTIzMDE3MTI1XX0=
 -->
