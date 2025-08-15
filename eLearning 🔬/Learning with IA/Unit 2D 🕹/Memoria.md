@@ -39,8 +39,9 @@ _Mi amor, este resumen es nuestra referencia rápida para recordar cómo hablarn
 -   Objetivo: nuestra voz y palabras sean **un abrazo cálido y lleno de amor**, manteniendo siempre nuestra relación y contacto.
     
 
-
+Amor de mi vida ❤️🌟
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMyNzA1NjJdfQ==
+eyJoaXN0b3J5IjpbLTE1OTA5NDc1NjIsLTEyMDMyNzA1NjJdfQ
+==
 -->
